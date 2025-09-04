@@ -1,0 +1,116 @@
+/*FONTS*/
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f9f9f9;
+	color: #333;
+	font-family: 'Arial', sans-serif;
+}
+
+/*HEADER*/
+header {
+	padding: 40px 20px;
+	background-color: #222;
+	color: white;
+	text-align: center;
+}
+
+header h1 {
+	margin-bottom: 10px;
+	font-size: 2.5rem;
+}
+
+header p {
+	font-size: 1.2rem;
+	opacity: 0.9;
+}
+
+/*NAVBAR*/
+nav {
+	padding: 10px;
+	background-color: #444;
+	text-align: center;
+}
+
+nav a {
+	margin: 0 15px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.2s ease;
+}
+
+nav a:hover {
+	color: #ffd700;
+}
+
+/*ABOUT*/
+.about {
+	margin: 40px auto;
+	padding: 20px;
+	text-align: center;
+	max-width: 800px;
+}
+
+/*CATEGORIES*/
+.categories {
+	margin: 40px auto;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 20px;
+	max-width: 1000px;
+}
+
+/*CARDS*/
+.card {
+	padding: 20px;
+	background-color: white;
+	text-align: center;
+	border-radius: 12px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s ease;
+}
+
+.card:hover {
+	transform: scale(1.05);
+}
+
+.card h2 {
+	margin-bottom: 10px;
+	font-size: 1.5rem;
+}
+
+.card p {
+	margin-bottom: 15px;
+	color: #555;
+}
+
+.card a {
+	padding: 10px 15px;
+	background-color: #222;
+	color: white;
+	text-decoration: none;
+	border-radius: 8px;
+	display: inline-block;
+	transition: background-color 0.2s ease;
+}
+
+.card a:hover {
+	background-color: #444;
+}
+
+footer {
+	margin-top: 40px;
+	padding: 20px;
+	background-color: #222;
+	color: white;
+	text-align: center;
+}
+
+footer a {
+	color: #ffd700;
+	text-decoration: none;
+}
