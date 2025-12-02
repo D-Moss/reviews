@@ -16,69 +16,112 @@
 		</p>
 	</header>
 
+	<!--NAVIGATION BAR-->
 	<nav class="site-nav" aria-label="Primary">
-		<a href="index.html" aria-current="page">Home</a>
-		<a href="hotels.html">The Keycard Report</a>
-		<a href="food.html">From Booth to Bite</a>
-		<a href="moments.html">Off the Map Moments</a>
-		<a href="places.html">Aisles & Errands</a>
-		<a href="items.html">Everyday Finds</a>
-		<a href="contact.html">Contact</a>
+		<div class="nav-left">
+			<a href="https://dmcreativesolutions.com" class="brand">DM Creative Solutions</a>
+		</div>
+
+		<div class="nav-right">
+			<a href="index.html" aria-current="page">Home</a>
+			<a href="hotels.html">The Keycard Report</a>
+			<a href="food.html">From Booth to Bite</a>
+			<a href="moments.html">Off the Map Moments</a>
+			<a href="places.html">Aisles & Errands</a>
+			<a href="items.html">Everyday Finds</a>
+			<a href="contact.html">Contact</a>
+		</div>
 	</nav>
 
 	<main id="main">
-		<section class="about">
-			<h2>About DMCS Reviews</h2>
-			<p>
-				I document real experiences—from cozy hotels/motels and quick bites to hidden local gems and gear I actually use. No fluff, just clear highlights, trade-offs, and whether or not it’s worth it.
-			</p>
+		<!--TIER 1 ABOUT & CATEGORIES-->
+		<section class="tier tier-primary">
+			<div class="content-shell">
+				<section class="about">
+					<h2>About DMCS Reviews</h2>
+					<p>
+						I document real experiences—from cozy hotels/motels and quick bites to hidden local gems and gear I actually use. No fluff, just clear highlights, trade-offs, and whether or not it’s worth it.
+					</p>
+				</section>
+
+				<section class="categories" aria-labelledby="cat-title">
+					<h2 class="section-title" id="cat-title">
+						<span class="arrow">&#8595;</span>Explore Categories<span class="arrow">&#8595;</span>
+					</h2>
+
+					<div class="card-grid">
+						<article class="card">
+							<h3>The Keycard Report</h3>
+							<p>
+								Hotels & motels: comfort, cleanliness, and value—no sugarcoating.
+							</p>
+							<a href="hotels.html" class="btn">Explore</a>
+						</article>
+
+						<article class="card">
+							<h3>From Booth to Bite</h3>
+							<p>
+								Atmosphere, flavor, and what I'd order again (or not).
+							</p>
+							<a href="food.html" class="btn">Explore</a>
+						</article>
+
+						<article class="card">
+							<h3>Off the Map Moments</h3>
+							<p>
+								Zoos, parks, museums, and quirky stops that make trips memorable.
+							</p>
+							<a href="moments.html" class="btn">Explore</a>
+						</article>
+
+						<article class="card">
+							<h3>Aisles & Errands</h3>
+							<p>
+								Reviews of Dollar stores, gyms, big chain stores, etc.
+							</p>
+							<a href="places.html" class="btn">Explore</a>
+						</article>
+
+						<article class="card">
+							<h3>Everyday Finds</h3>
+							<p>
+								Useful gear & items I've actually tested; quick wins for daily life.
+							</p>
+							<a href="items.html" class="btn">Explore</a>
+						</article>
+					</div>
+				</section>
+			</div>
 		</section>
 
-		<section class="categories" aria-labelledby="cat-title">
-			<h2 class="section-title" id="cat-title">
-				<span class="arrow">&#8595;</span>Explore Categories<span class="arrow">&#8595;</span>
-			</h2>
+		<!--TIER TWO - LETEST REVIEW-->
+		<section class="tier tier-latest">
+			<div class="latest-shell">
+				<h2 class="section-title">Latest Review</h2>
 
-			<div class="card-grid">
-				<article class="card">
-					<h3>The Keycard Report</h3>
+				<article class="latest-card">
+					<p class="latest-meta">Everyday Finds | Updated May 2025</p>
+					<h3>Sample Product Name Goes Here</h3>
 					<p>
-						Hotels & motels: comfort, cleanliness, and value—no sugarcoating.
+						Short 2–3 sentence teaser of the review goes here so people can decide if they want to read more.
 					</p>
-					<a href="hotels.html" class="btn">Explore</a>
+					<a href="items.html" class="btn">Read Full Review</a>
 				</article>
+			</div>
+		</section>
 
-				<article class="card">
-					<h3>From Booth to Bite</h3>
-					<p>
-						Atmosphere, flavor, and what I'd order again (or not).
-					</p>
-					<a href="food.html" class="btn">Explore</a>
-				</article>
-
-				<article class="card">
-					<h3>Off the Map Moments</h3>
-					<p>
-						Zoos, parks, museums, and quirky stops that make trips memorable.
-					</p>
-					<a href="moments.html" class="btn">Explore</a>
-				</article>
-
-				<article class="card">
-					<h3>Aisles & Errands</h3>
-					<p>
-						Reviews of Dollar stores, gyms, big chain stores, etc.
-					</p>
-					<a href="places.html" class="btn">Explore</a>
-				</article>
-
-				<article class="card">
-					<h3>Everyday Finds</h3>
-					<p>
-						Useful gear & items I've actually tested-quick wins for daily life.
-					</p>
-					<a href="items.html" class="btn">Explore</a>
-				</article>
+		<!--TIER THREE - SOCIALS-->
+		<section class="tier tier-socials" aria-labelledby="socials-title">
+			<div class="socials-shell">
+				<h2 class="section-title" id="socials-title">Stay Connected</h2>
+				<p class="socials-text">
+					See quick review snippets, new finds, and behind-the-scenes on social.
+				</p>
+				<div class="social-icons">
+					<a href="www.instagram.com/dm.creativesolutions/">Instagram</a>
+					<a href="www.facebook.com/p/DM-Creative-Solutions-61583983431972/">Facebook</a>
+					<a href="www.linkedin.com/in/diona-moss">LinkedIn</a>
+				</div>
 			</div>
 		</section>
 	</main>
