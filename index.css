@@ -7,7 +7,9 @@
 	--color-navy: #000b75;
 	--color-white: #ffffff;
 	--color-gray: #f4f4f4;
+	--color-dark-gray: #cccccc;
 	--color-blush: #fadadd;
+	--color-light-blush: #fce9eb;
 	--color-creative: #e76daa;
 	--color-deep-navy: #000062;
 	--max: 1200px;
@@ -332,6 +334,7 @@ body {
 	min-width: 90px;
 	height: 40px;
 }
+
 /* Footer */
 .site-foot {
 	margin-top: 32px;

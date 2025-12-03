@@ -1,6 +1,7 @@
 .body-container {
 	margin: 2.5rem auto;
 	padding: 0 1rem;
+	background-color: var(--color-white);
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	gap: 2.5rem;
@@ -11,12 +12,14 @@
 /*SMALL COLUMN*/
 .small-col {
 	padding: 1.25rem;
-	background-color: yellow;
+	/*background-color: var(--color-gray);*/
+	background-color: var(--color-navy);
+	color: var(--color-blush);
 	text-align: center;
 	border-radius: .75rem;
 	box-shadow: 0 .25rem .375rem rgba(0, 0, 0, 0.1);
 	height: 100%;
-	min-height: calc(100vh - 200px);
+	/*min-height: calc(100vh - 200px);*/
 }
 
 .small-col h2 {
@@ -48,11 +51,16 @@
 }
 
 .small-btn:hover {
-	background-color: #005fa3;
+	background-color: var(--color-navy);
+	color: var(--color-gray);
 }
 
 .affiliates h4 {
 	margin-top: 1.25rem;
+}
+
+.affiliate-note {
+	color: var(--color-dark-navy);
 }
 
 @media (max-width: 700px) {
@@ -62,14 +70,32 @@
 }
 
 /*BIG COLUMN*/
+.big-col {
+	margin-left: 15px;
+}
+
 .big-col h2 {
 	margin-top: 2.5rem;
 	padding-top: 1rem;
 	border-top: 1px solid #ddd;
 }
 
+.big-col h2:first-of-type {
+	margin-top: 0;
+	padding-top: 0;
+	border-top: none;
+}
+
 .big-col h5 {
 	margin-bottom: 0.75rem;
 	color: #666;
 	font-size: 0.85rem;
+}
+
+.hotel-content {
+	padding: 9px;
+}
+
+.hotel-section1 {
+	background-color: var(--color-gray);
 }
