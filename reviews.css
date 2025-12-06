@@ -124,17 +124,25 @@
 	border-radius: 0.5rem;
 }
 
-/*.big-col h2:first-of-type {
-	margin-top: 0;
-	padding-top: 0;
-	border-top: none;
+.review-full {
+  display: none;
+  margin-top: 0.5rem;
 }
 
-.big-col h5 {
-	margin-bottom: 0.75rem;
-	color: #666;
-	font-size: 0.85rem;
-}*/
+.read-more-btn {
+  background-color: #0a2342; /* DMCS navy */
+  color: #ffffff;
+  border: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 0.75rem;
+}
+
+.read-more-btn:hover {
+  background-color: #0c2e57;
+}
 
 .hotel-content {
 	padding: 9px;
