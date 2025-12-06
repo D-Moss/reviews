@@ -116,6 +116,14 @@
 	font-size: .85rem;
 }
 
+.image img {
+	background-color: #e0e0e0;
+	width: 100%;
+	height: 260px;
+	object-fit: cover;
+	border-radius: 0.5rem;
+}
+
 /*.big-col h2:first-of-type {
 	margin-top: 0;
 	padding-top: 0;
