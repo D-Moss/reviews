@@ -1,3 +1,4 @@
+//HOTEL
 function toggleReview(id, btn) {
 	const section = document.getElementById(id);
 
@@ -11,3 +12,26 @@ function toggleReview(id, btn) {
 		btn.textContent = "Read More";
 	}
 }
+
+//FOOD
+document.addEventListener("DOMContentLoaded", function () {
+	const accordions = document.querySelectorAll(".btb-accordion");
+
+	accordions.forEach((acc) => {
+		acc.addEventListener("click", function () {
+			const panel = this.nextElementSibling;
+
+			this.classList.toggle("active");
+
+			if (panel.style.maxHeight) {
+			// Close
+				panel.style.maxHeight = null;
+				panel.classList.remove("open");
+			} else {
+			// Open
+				panel.style.maxHeight = panel.scrollHeight + "px";
+				panel.classList.add("open");
+			}
+		});
+	});
+});
